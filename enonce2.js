@@ -1,6 +1,43 @@
-//Workshop 2
-/* Question 2 : vous allez créer une classe nomé : Bookshelf
-le constructeur de la classe reçoit le tableau favoriteBooks
-et les deux méthodes de l'énoncé précédente
-Donc en bref
-pour faire l'exercice 2 il faut utiliser la notion de classe avec le mot clé "class" ES6 et le mot clé "this" pour pouvoir finaliser l'exercice */
+class Bookshelf {
+	constructor() {
+		this.favoriteBooks = [];
+	}
+
+	// TODO: Définir la méthode `addFavoriteBook(..)`
+	// et `printFavoriteBooks()`
+}
+
+function addFavoriteBook(bookName) {
+	if (!bookName.includes("Great")) {
+		favoriteBooks.push(bookName);
+	}
+}
+
+function printFavoriteBooks() {
+	console.log(`Favorite Books: ${favoriteBooks.length}`);
+	for (let bookName of favoriteBooks) {
+		console.log(bookName);
+	}
+}
+
+function loadBooks( /* .. */ ) {
+	// TODO: appeler fakeAjax( .. );
+}
+
+var BOOK_API = "https://fake.url/api";
+
+
+// ***********************
+
+// NOTE: Ne modifie pas cette fonction
+function fakeAjax(url, cb) {
+	setTimeout(function fakeLoadingDelay() {
+		cb([
+			"A Song of Ice and Fire",
+			"The Great Gatsby",
+			"Crime & Punishment",
+			"Great Expectations",
+			"You Don't Know JS"
+		]);
+	}, 500);
+}
