@@ -1,3 +1,4 @@
+//Workshop 1
 function addFavoriteBook(bookName){
     var favoriteBooks = ["c", "a", "k", "Great"];
     var bookName = favoriteBooks.includes("Great");
@@ -21,3 +22,13 @@ function addFavoriteBook(bookName){
 }
 addFavoriteBook();
 
+
+
+
+
+
+
+
+
+
+    
