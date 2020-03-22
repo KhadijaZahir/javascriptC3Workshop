@@ -11,19 +11,21 @@
             count--;
         }
         if (count > 0){
-            console.log(count + " Bet")//////////////
-        // return count + " Bet";
+            console.log(count + " Bet")
+        // return count + " Bet"; //dont know we use it
         }
         
         else{
-            console.log(count + " Hold")//////////////
-            // return count + " Hold";
+            console.log(count + " Hold")///
+            // return count + " Hold";// dont know we use it
         }
     }
     cc(2);
 
 
-    //Workshop 4 SOLUTION 2
+//Workshop 4 SOLUTION 2
+
+
 /* var count = 0;
 
 function cc(card) {
