@@ -29,9 +29,21 @@ var collection = {
 // Completer la fonction suivante
 function updateRecords(id, prop, value) {
 
-
+    if(prop !== "tracks" && value !== " "){
+        // value = "hate";
+        // console.log(collection);
+    }
+    else if (prop == "tracks" && id !== "tracks"){
+        let tab= [];
+        let add = tab.push("tracks");
+        console.log(tab) 
+    }
+    else (prop == "tracks" && value !== " ")
+    {    let tab= [];
+        let add = tab.push(value);
+    }
     return collection;
-}
+}updateRecords(2468, "tracks", "Free");
 /* class collection{
     constructeur ()
 }
@@ -54,3 +66,4 @@ else (collection.prop == "tracks" && collection.valeur == " ")
 }
  return collection;
 }collection(); */
+  
