@@ -1,5 +1,5 @@
 //Workshop 4 SOLUTION 1
-    function cc(card) {
+    function cardCounting(card) {
         let count = 0;
         if(card > 1 && card < 7){
             count++;
@@ -17,10 +17,10 @@
         
         else{
             console.log(count + " Hold")///
-            // return count + " Hold";// dont know we use it
+            // return count + " Hold";// dont know why we use it
         }
     }
-    cc(2);
+    cardCounting(2);
 
 
 //Workshop 4 SOLUTION 2

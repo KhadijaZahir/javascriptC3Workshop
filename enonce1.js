@@ -2,12 +2,14 @@
 function addFavoriteBook(bookName){
     var favoriteBooks = ["c", "a", "k", "Great"];
     var bookName = favoriteBooks.includes("Great");
-    if(bookName == false){
+    if(bookName != true){
         favoriteBooks.push("Great");
+    }
+    console.log(favoriteBooks);
+
     // } else{
     //     console.log("there's the word Great")
-    // }
-    console.log(favoriteBooks)
+    
     function printFavoriteBooks(){
         // var favoriteBooks = ["c", "a", "k"];
         var N = favoriteBooks.length;
